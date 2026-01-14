@@ -1,0 +1,43 @@
+<!-- Chatbot Widget -->
+<div id="chatbot-widget" class="chatbot-widget">
+  <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Open chat">
+    <i class="fas fa-comments"></i>
+  </button>
+
+  <div id="chatbot-panel" class="chatbot-panel">
+    <div class="chatbot-header">
+      <div class="chatbot-title">
+        <img src="IMAGES/logo.png" alt="Vuyani & Soks" class="chatbot-logo">
+        <span>Vuyani & Soks Security</span>
+      </div>
+      <button id="chatbot-close" class="chatbot-close" aria-label="Close chat">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="chatbot-messages" id="chatbot-messages">
+      <div class="bot-message">
+        <div class="message-bubble">
+          Hello! 👋 Welcome to Vuyani & Soks Security. How can we help protect you today?
+        </div>
+      </div>
+    </div>
+
+    <div class="chatbot-menu" id="chatbot-menu">
+      <button class="menu-option" data-option="services">Our Services</button>
+      <button class="menu-option" data-option="quote">Get a Quote</button>
+      <button class="menu-option" data-option="contact">Contact Us</button>
+      <button class="menu-option" data-option="hours">Working Hours</button>
+    </div>
+
+    <div class="chatbot-input">
+      <input type="text" id="chatbot-input-field" placeholder="Type your message...">
+      <button id="chatbot-send" aria-label="Send message">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="chatbot.css">
+<script src="chatbot.js"></script>
